@@ -1,0 +1,10 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.21.0
+scipy>=1.7.0
+python-Levenshtein>=0.12.0
+
+# Optional dependencies for better performance
+flash-attn>=2.0.0  # For faster LLM inference (optional)
+accelerate>=0.20.0  # For model loading optimization
