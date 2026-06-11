@@ -9,6 +9,7 @@ A comprehensive evaluation framework for assessing receipt/invoice information e
 ## 📋 Table of Contents
 
 - [Features](#features)
+- [Dataset](#dataset)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Usage](#usage)
@@ -26,6 +27,12 @@ A comprehensive evaluation framework for assessing receipt/invoice information e
 - **Multi-Task Support**: Evaluate performance across different subtasks (Perception, Normalization, Reasoning, Structure)
 - **Comprehensive Metrics**: Accuracy, Precision, Recall, F1-Score for each field and overall
 - **Efficient Caching**: Automatic result caching to avoid redundant LLM calls
+
+## 📚 Dataset<a id="dataset"></a>
+
+The dataset used for training and evaluation is available on Hugging Face:
+
+[**ReceiptBench Dataset**](https://huggingface.co/datasets/T0rl/ReceiptBench)
 
 ## 🚀 Installation<a id="installation"></a>
 
